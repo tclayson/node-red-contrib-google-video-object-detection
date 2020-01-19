@@ -1,0 +1,30 @@
+{
+ "name": "node-red-contrib-google-video-object-detection",
+ "version": "0.0.1",
+ "description": "Node Red node for detecting objects in video clips using Google Video Intelligence API",
+ "main": "index.js",
+ "scripts": {},
+ "deprecated": false,
+ "keywords": [
+  "node-red",
+  "google",
+  "video",
+  "intelligence",
+  "object",
+  "detection"
+ ],
+ "node-red": {
+  "nodes": {
+   "detect-objects": "detect-objects.js"
+  }
+ },
+ "author": "tclayson",
+ "license": "MIT",
+ "repository": {
+  "type": "git",
+  "url": "https://github.com/tclayson/node-red-contrib-google-video-object-detection.git"
+ },
+ "dependencies": {
+  "@google-cloud/video-intelligence": "^2.6.4"
+ }
+}
